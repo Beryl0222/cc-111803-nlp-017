@@ -8,6 +8,8 @@
 
 ## 运行
 
+运行 `PYTHONPATH=src python -m nlp_research_method_result_links.desk_cli` 查看当前问题能使用哪些独立试验和文本证据。合成文献用登记号确定试验。没有报出条件的结果显示资料不足，多个文献版本可保留各自的引用。
+
 从项目根目录执行 `PYTHONPATH=src python -m nlp_research_method_result_links.cli ingest fixtures/records.json` 导入样例，随后执行 `PYTHONPATH=src python -m nlp_research_method_result_links.cli list` 查看记录。工作数据写入 `var/records.json`。业务查询使用 fixtures/business.json 中的初始资料，约定见 fixtures/business-contract.md。执行 PYTHONPATH=src python -m nlp_research_method_result_links.cli business 可查看当前业务目录结果。
 
 样例为本地合成文本。记录包含来源、修订号和原文，当前工作区对空白做统一处理，并提供字符及英文词项切分。

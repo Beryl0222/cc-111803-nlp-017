@@ -1,0 +1,34 @@
+{
+  "query": {
+    "population": "40-60",
+    "comparison": "对照甲",
+    "outcome": "问卷得分",
+    "include_exploratory": false
+  },
+  "findings": [
+    {
+      "id": "statement-1",
+      "paper": "ABS-1",
+      "population": "40-60",
+      "comparison": "对照甲",
+      "outcome": "问卷得分",
+      "analysis": "主要"
+    },
+    {
+      "id": "statement-2",
+      "paper": "PAPER-1",
+      "population": "40-60",
+      "comparison": "对照甲",
+      "outcome": "问卷得分",
+      "analysis": "主要"
+    },
+    {
+      "id": "statement-3",
+      "paper": "PAPER-1",
+      "population": "全部纳入者",
+      "comparison": "对照甲",
+      "outcome": "问卷得分",
+      "analysis": "探索性"
+    }
+  ]
+}
