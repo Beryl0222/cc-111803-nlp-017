@@ -1,0 +1,32 @@
+{
+  "trials": [
+    {
+      "id": "TR-8",
+      "registry": "NCT-SYN-8"
+    }
+  ],
+  "papers": [
+    {
+      "id": "ABS-1",
+      "trial": "TR-8",
+      "kind": "conference"
+    },
+    {
+      "id": "PAPER-1",
+      "trial": "TR-8",
+      "kind": "journal"
+    }
+  ],
+  "claims": [
+    {
+      "id": "efficacy",
+      "paper": "ABS-1",
+      "population": "40-60"
+    },
+    {
+      "id": "safety",
+      "paper": "PAPER-1",
+      "population": "all-enrolled"
+    }
+  ]
+}
