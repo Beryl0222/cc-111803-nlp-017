@@ -12,7 +12,9 @@
       "population": "40-60",
       "comparison": "对照甲",
       "outcome": "问卷得分",
-      "analysis": "主要"
+      "analysis": "主要",
+      "population_scope": "overall",
+      "quote": "意向治疗人群中，试验组问卷得分较对照甲改善（主要终点）。"
     },
     {
       "id": "statement-2",
@@ -20,15 +22,50 @@
       "population": "40-60",
       "comparison": "对照甲",
       "outcome": "问卷得分",
-      "analysis": "主要"
+      "analysis": "主要",
+      "population_scope": "overall",
+      "quote": "期刊稿初版报告问卷得分主要终点阳性。"
     },
     {
       "id": "statement-3",
+      "paper": "CORR-1",
+      "population": "40-60",
+      "comparison": "对照甲",
+      "outcome": "问卷得分",
+      "analysis": "探索性",
+      "population_scope": "subgroup",
+      "adjustment": "基线分层",
+      "sample_note": "亚组样本量小于原计划，事件数有限",
+      "quote": "勘误：问卷得分仅在40至60岁亚组、基线分层校正口径下观察到改善，属探索性分析，不支持总体疗效结论。"
+    },
+    {
+      "id": "statement-4",
       "paper": "PAPER-1",
       "population": "全部纳入者",
       "comparison": "对照甲",
+      "outcome": "不良事件",
+      "analysis": "主要",
+      "population_scope": "overall",
+      "quote": "安全性分析覆盖全部入组者，两组不良事件发生率相近。"
+    },
+    {
+      "id": "statement-5",
+      "paper": "PAPER-2",
+      "population": "40-60",
+      "comparison": "对照甲",
       "outcome": "问卷得分",
-      "analysis": "探索性"
+      "analysis": "主要",
+      "population_scope": "overall",
+      "quote": "独立试验 NCT-SYN-9 重复观察到问卷得分改善。"
+    },
+    {
+      "id": "statement-6",
+      "paper": "ABS-2",
+      "population": "40-60",
+      "outcome": "问卷得分",
+      "analysis": "主要",
+      "population_scope": "subgroup",
+      "quote": "摘要报告40至60岁亚组问卷得分改善，但未注明比较对象与试验登记号。"
     }
   ]
 }

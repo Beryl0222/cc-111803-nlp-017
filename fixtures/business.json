@@ -2,19 +2,57 @@
   "trials": [
     {
       "id": "TR-8",
-      "registry": "NCT-SYN-8"
+      "registry": "NCT-SYN-8",
+      "attribution": "confirmed"
+    },
+    {
+      "id": "TR-9",
+      "registry": "NCT-SYN-9",
+      "attribution": "confirmed"
+    },
+    {
+      "id": "TR-12",
+      "registry": "NCT-SYN-12",
+      "attribution": "suspected"
     }
   ],
   "papers": [
     {
       "id": "ABS-1",
       "trial": "TR-8",
-      "kind": "conference"
+      "kind": "conference",
+      "note": "会议摘要，作者表与期刊稿不完全一致"
     },
     {
       "id": "PAPER-1",
       "trial": "TR-8",
+      "kind": "journal",
+      "note": "期刊全文，与 ABS-1 来自同一试验，样本数字略有差异"
+    },
+    {
+      "id": "CORR-1",
+      "trial": "TR-8",
+      "kind": "corrigendum",
+      "corrections": [
+        {
+          "trial": "TR-8",
+          "outcome": "问卷得分",
+          "targets_claims": ["statement-2"],
+          "replaces_claim": "statement-3",
+          "note": "原期刊问卷得分结果改为校正口径下的探索性亚组结果"
+        }
+      ]
+    },
+    {
+      "id": "PAPER-2",
+      "trial": "TR-9",
       "kind": "journal"
+    },
+    {
+      "id": "ABS-2",
+      "trial": "TR-12",
+      "kind": "conference",
+      "note": "摘要未给登记号，疑似属于 NCT-SYN-12，归属待确认"
     }
   ],
   "claims": [
